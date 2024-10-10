@@ -157,4 +157,5 @@ CMakeFiles/z2.dir/main.cpp.o.ddi: \
  /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
  /usr/include/c++/14/bits/istream.tcc \
  /home/twoj_stary/CLionProjects/Lab1/z2/Animal.h \
+ /home/twoj_stary/CLionProjects/Lab1/z2/Cat.h \
  /home/twoj_stary/CLionProjects/Lab1/z2/Dog.h

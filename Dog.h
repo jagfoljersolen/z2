@@ -17,6 +17,7 @@ public:
     int getSkillLevel(int type);
     void giveVoice();
     void info();
+    static void howManyTrackerDogs(Dog dogs[], int size);
 };
 
 

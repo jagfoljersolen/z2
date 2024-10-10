@@ -22,6 +22,7 @@ public:
     void giveVoice();
     void info();
 
+    static int howManyProtectedAnimals(Animal animals[], int size);
 };
 
 

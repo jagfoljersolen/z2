@@ -7,4 +7,6 @@ add_executable(z2 main.cpp
         Animal.cpp
         Animal.h
         Dog.cpp
-        Dog.h)
+        Dog.h
+        Cat.cpp
+        Cat.h)

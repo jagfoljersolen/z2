@@ -7,7 +7,9 @@ Animal::Animal() : limbNr(0), name(""),protectedAnimal(true){
     cout << "Konstruktor bezparametrowy klasy bazowej Animal" << endl;
 }
 Animal::Animal(int limbNr, string name, bool protectedAnimal)
-    : limbNr(limbNr), name(name), protectedAnimal(protectedAnimal) {}
+    : limbNr(limbNr), name(name), protectedAnimal(protectedAnimal) {
+    cout << "Konstruktor klasy Animal" << endl;
+}
 
 void Animal::setName(string name) {
     this->name = name;
@@ -37,6 +39,15 @@ void Animal::info() {
     << "Czy pod ochrona?: " << (protectedAnimal ? "Tak" : "Nie")<< endl;
 }
 
+int Animal::howManyProtectedAnimals(Animal animals[], int size) {
+    int counter = 0;
+    for (int i = 0; i < size; i++) {
+        if (animals[i].protectedAnimal) {
+            counter++;
+        }
+    }
+        return counter;
+}
 
 
 

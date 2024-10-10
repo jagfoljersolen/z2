@@ -94,7 +94,22 @@ build CMakeFiles/z2.dir/Dog.cpp.o: CXX_COMPILER__z2_scanned_Debug /home/twoj_sta
   OBJECT_FILE_DIR = CMakeFiles/z2.dir
   dyndep = CMakeFiles/z2.dir/CXX.dd
 
-build CMakeFiles/z2.dir/CXX.dd | /home/twoj_stary/CLionProjects/Lab1/z2/cmake-build-debug/CMakeFiles/z2.dir/CXXModules.json CMakeFiles/z2.dir/main.cpp.o.modmap CMakeFiles/z2.dir/Animal.cpp.o.modmap CMakeFiles/z2.dir/Dog.cpp.o.modmap: CXX_DYNDEP__z2_Debug CMakeFiles/z2.dir/main.cpp.o.ddi CMakeFiles/z2.dir/Animal.cpp.o.ddi CMakeFiles/z2.dir/Dog.cpp.o.ddi | /home/twoj_stary/CLionProjects/Lab1/z2/cmake-build-debug/CMakeFiles/z2.dir/CXXDependInfo.json
+build CMakeFiles/z2.dir/Cat.cpp.o.ddi: CXX_SCAN__z2_Debug /home/twoj_stary/CLionProjects/Lab1/z2/Cat.cpp || cmake_object_order_depends_target_z2
+  DEP_FILE = CMakeFiles/z2.dir/Cat.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/z2.dir/Cat.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJ_FILE = CMakeFiles/z2.dir/Cat.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/z2.dir/Cat.cpp.o.ddi.i
+
+build CMakeFiles/z2.dir/Cat.cpp.o: CXX_COMPILER__z2_scanned_Debug /home/twoj_stary/CLionProjects/Lab1/z2/Cat.cpp | CMakeFiles/z2.dir/Cat.cpp.o.modmap || cmake_object_order_depends_target_z2 CMakeFiles/z2.dir/CXX.dd
+  DEP_FILE = CMakeFiles/z2.dir/Cat.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/z2.dir/Cat.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/z2.dir
+  OBJECT_FILE_DIR = CMakeFiles/z2.dir
+  dyndep = CMakeFiles/z2.dir/CXX.dd
+
+build CMakeFiles/z2.dir/CXX.dd | /home/twoj_stary/CLionProjects/Lab1/z2/cmake-build-debug/CMakeFiles/z2.dir/CXXModules.json CMakeFiles/z2.dir/main.cpp.o.modmap CMakeFiles/z2.dir/Animal.cpp.o.modmap CMakeFiles/z2.dir/Dog.cpp.o.modmap CMakeFiles/z2.dir/Cat.cpp.o.modmap: CXX_DYNDEP__z2_Debug CMakeFiles/z2.dir/main.cpp.o.ddi CMakeFiles/z2.dir/Animal.cpp.o.ddi CMakeFiles/z2.dir/Dog.cpp.o.ddi CMakeFiles/z2.dir/Cat.cpp.o.ddi | /home/twoj_stary/CLionProjects/Lab1/z2/cmake-build-debug/CMakeFiles/z2.dir/CXXDependInfo.json
 
 
 # =============================================================================
@@ -104,7 +119,7 @@ build CMakeFiles/z2.dir/CXX.dd | /home/twoj_stary/CLionProjects/Lab1/z2/cmake-bu
 #############################################
 # Link the executable z2
 
-build z2: CXX_EXECUTABLE_LINKER__z2_Debug CMakeFiles/z2.dir/main.cpp.o CMakeFiles/z2.dir/Animal.cpp.o CMakeFiles/z2.dir/Dog.cpp.o
+build z2: CXX_EXECUTABLE_LINKER__z2_Debug CMakeFiles/z2.dir/main.cpp.o CMakeFiles/z2.dir/Animal.cpp.o CMakeFiles/z2.dir/Dog.cpp.o CMakeFiles/z2.dir/Cat.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/z2.dir
   POST_BUILD = :

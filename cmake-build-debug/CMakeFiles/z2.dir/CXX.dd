@@ -5,3 +5,5 @@ build CMakeFiles/z2.dir/Animal.cpp.o: dyndep
 
 build CMakeFiles/z2.dir/Dog.cpp.o: dyndep
 
+build CMakeFiles/z2.dir/Cat.cpp.o: dyndep
+

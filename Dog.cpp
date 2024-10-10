@@ -10,7 +10,7 @@ Dog::Dog(string breed, int levelOfGuideSkills, int levelOfTrackerSkills) {
     this->breed = breed;
     this->levelOfGuideSkills = levelOfGuideSkills;
     this->levelOfTrackerSkills = levelOfTrackerSkills;
-    cout << "konstruktor inicjalizujący składowe klasy Dog" << endl;
+    cout << "konstruktor klasy pochodnej Dog" << endl;
 }
 
 Dog::Dog(int limbNr, string name, bool protectedAnimal) : Animal(limbNr, name, protectedAnimal) {
@@ -49,6 +49,16 @@ void Dog::setSkillLevel(int type, int value) {
 }
 void Dog::giveVoice() {
     cout << "Hau hau" << endl;
+}
+
+void Dog::howManyTrackerDogs(Dog dogs[], int size) {
+
+
+    for (int i = 0; i < size; i++) {
+        if (dogs[i].levelOfTrackerSkills > dogs[i].levelOfGuideSkills) {
+            cout << dogs[i].breed << endl;
+        }
+    }
 }
 
 
